@@ -39,7 +39,7 @@ def find_empty(grid):
 def solve(grid):
     empty = find_empty(grid)
     if not empty:
-        return True  # done
+        return True  
     row, col = empty
 
     for num in range(1, 10):
