@@ -24,7 +24,6 @@ python board.py
 
 ## TODO
 
-1. Determine the customization
-2. Implement CSP version
+1. Implement CSP version
 
 
