@@ -19,7 +19,7 @@ two algorithms and explain why the CSP-enhanced version performs better
 To run the main script from the project root:
 
 ```bash
-python board.py
+python code/board.py
 ```
 
 ## TODO
