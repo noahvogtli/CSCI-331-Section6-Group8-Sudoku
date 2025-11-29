@@ -27,6 +27,17 @@ def can_place(grid, row, col, num):
         for j in range(3):
             if grid[start_row + i][start_col + j] == num:
                 return False
+    
+    if row == col:
+        for x in range(9):
+            if grid[x][x] == num:
+                return False
+    
+    if row + col == 8:
+        for x in range(9):
+            if grid[x][8 - x] == num:
+                return False
+    
     return True
 
 def find_empty(grid):
@@ -56,7 +67,7 @@ if __name__ == "__main__":
         [0,0,0,0,0,0,0,0,0],
         [0,0,0,0,0,0,0,0,0],
         [0,0,0,0,0,0,0,0,0],
-        [0,0,0,0,1,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0],
         [0,0,0,0,0,0,0,0,0],
         [0,0,0,0,0,0,0,0,0],
         [0,0,0,0,0,0,0,0,0],
