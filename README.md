@@ -19,11 +19,11 @@ two algorithms and explain why the CSP-enhanced version performs better
 To run the main script from the project root:
 
 ```bash
-python code/board.py
+python -m code.board
 ```
 
 ## TODO
 
-1. Implement CSP version
+1. Track performance
 
 
