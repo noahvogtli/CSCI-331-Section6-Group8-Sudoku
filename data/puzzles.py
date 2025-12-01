@@ -1,8 +1,4 @@
-# Collection of Sudoku puzzles in the same 9x9 list format used by `board.py`.
-# Each puzzle is a 9×9 nested list of integers where 0 represents an empty cell.
-# You can copy any of these grids directly into `board.py` or load them
-# programmatically by reading this file and using `eval()` (or better: paste into a
-# Python file and `import`).
+import random
 
 boards = [
 
@@ -63,6 +59,4 @@ boards = [
 
 
 def get_puzzle():
-    """Return one of the predefined puzzles."""
-    import random
     return random.choice(boards)
