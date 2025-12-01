@@ -178,7 +178,6 @@ if __name__ == "__main__":
     if solve_backtrack(sudoku2):
         print("\nSolved Sudoku (Backtracking):")
         print_grid(sudoku2)
-        print(f"Backtrack steps performed (existing counter): {backtrack_count}")
-        print(f"Backtrack trial assignments performed: {backtrack_steps}")
+        print(f"Backtrack steps performed: {backtrack_count}")
     else:
         print("No solution")
