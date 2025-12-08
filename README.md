@@ -24,6 +24,6 @@ python -m code.board
 
 ## TODO
 
-1. Track performance
+
 
 
